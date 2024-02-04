@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+    background-color: rgb(105, 135, 118);
+}
+.nav{
+    opacity:90%;
+    transition: 0.5s;
+    position: sticky;
+    top:0;
+}
+.icon{
+    display: none;
+}
+.nav ul{
+    list-style-type: none;
+    display:flex;
+    background-color: rgb(193, 220, 138);
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+}
+.nav2{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.trai{
+    transition: 0.5s;
+    margin-right: auto;
+    margin-left: 145px;
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+}
+.nav2 li{
+    margin: 5px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.nav2 a{
+    font-family:sans-serif;
+    color: rgb(245, 147, 0);
+    text-decoration: none;
+    padding: 6px;
+}
+.nav2 a:visited{
+    color:rgb(0, 0, 0);
+}
+.nav2 a:hover{
+   color: rgb(53, 150, 53);
+   font-style: bold;
+   font-size: larger;
+   transition: 0.5s;
+}
+.nholaitrai{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 150px;
+    font-size: 47px;
+}
+.nholaiphai{
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:20px;
+    display: flex;
+}
+.title{
+    padding-top: 20px;
+    font-family:'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 2px;
+}
+#smaller{
+    font-size: 20px;
+    padding-top:0;
+}
+.title:hover{filter: brightness(2.1);font-size: 42px;transition: 0.5s;color: #4CAF50;font-weight: bolder;}
+.bao{
+    color: rgb(0, 0, 0);
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+    padding: 16px;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 4fr);
+    gap: 10px;
+}
+.bao p:hover{filter: brightness(2.1);font-size: 32px;transition: 0.5s;color: #4CAF50;font-weight: bolder;}
+.dropdown ul{
+    list-style-type: none;
+    list-style:none;
+    border: 1px solid;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+}
+.dropdown li{
+    list-style:none;
+    text-align: center;
+    list-style-type: none;
+}
+.dropdown a{
+    font-family:'Quicksand', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color:black;
+}
+.dropdown a:hover{color: #1ed324;transition: 0.4s;font-size: larger;}

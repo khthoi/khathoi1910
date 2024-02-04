@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+    <p>Form dang ki</p>
+    <form action="#" onsubmit="validateform(event)">
+        <p>Ho: <input type="text" id="txt_ho" size="20" > </p>
+        <p>Ten: <input type="text" id="txt_ten" size="20" > </p>
+        <p>Ngay sinh:Ngay <select size="1" id="op_ngay"></select> Thang <select size="1" id="op_thang" ></select>Nam <select size="1" id="op_nam" ></select> </p>
+        <p>Gioi tinh:<input type="radio" value="Nam" name="rdSize"checked=checked/>Nam</input> <input type="radio" value="Nu" name="rdSize"checked=checked/>Nu</input></p>
+        <p>So dien thoai:<input type="text" id="txt_dienthoai" size="10" ></p>
+        <br>So Thich:<input type="checkbox" name="docsach" value="docsach">
+            <label for="sothich"> doc sach</label>
+            <input type="checkbox" name="docsach" value="docsach">
+            <label for="sothich"> xem phim</label>
+            <input type="checkbox" name="docsach" value="docsach">
+            <label for="sothich"> nghe nhac</label>
+            <input type="checkbox" name="docsach" value="docsach">
+            <label for="sothich"> nghe nhac</label>
+            <br>
+        <p>Khac:<input type="text" size="20" ></p>
+        <input type="submit" id="submit" value="Submit">
+    </div>
+    <!-- <script type="text/javascript" src="bai4formjs.js"></script> -->
+    <script>
+        function validateform(e){
+    const form = e.target
+    const firstName = form.querySelector("#txt_ho").value
+    const lastName = form.querySelector("#txt_ten").value
+    const phoneNumb = form.querySelector("#txt_dienthoai").value
+    if(firstName==""){
+        alert("Ban chua nhap ho");
+        return false;
+    } 
+    if(lastName==""){
+        alert("Ban chua nhap ten");
+        return false;
+    }
+    if(isNaN(phoneNumb)||length(phoneNumb)==0||length(phoneNumb)>10){
+        alert("Dien thoai phai la so");
+        return false;
+    }
+    alert('No fault found')
+}
+const daySelect = document.querySelector("#op_ngay")
+        for (let i = 1; i <= 30; i ++) {
+            const option = document.createElement("option")
+            option.value=i
+            
+            option.innerHTML = i
+            if (i == 1) {
+                option.selected = true
+            }
+            daySelect.appendChild(option)
+        }
+
+        const monthSelect = document.querySelector("#op_thang")
+        for (let i = 1; i <= 12; i ++) {
+            const option = document.createElement("option")
+            option.value=i
+            option.innerHTML = i
+            if (i == 1) {
+                option.selected = true
+            }
+            monthSelect.appendChild(option)
+        }
+
+        const yearSelect = document.querySelector("#op_nam")
+        for (let i = 1980; i <= 2010; i ++) {
+            const option = document.createElement("option")
+            option.value=i
+            option.innerHTML = i
+            if (i == 1) {
+                option.selected = true
+            }
+            yearSelect.appendChild(option)
+        }
+
+        var size="";
+        var sizeAr =document.getElementsByName("rdSize");
+        for(var i=0;i<sizeAr.length;i++){
+            if(sizeAr[i].checked){
+                size=sizeAr[i].value;
+            }
+        }
+    </script>
+</body>
+
+</html>

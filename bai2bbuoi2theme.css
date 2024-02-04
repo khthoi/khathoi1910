@@ -1,0 +1,47 @@
+.info1 {
+    font-family: "Calibri";
+    margin-left: 100px;
+    font-size:18px;
+    max-width: 800px;
+    margin-bottom: 5px;
+}
+
+a:link, a:visited {
+background-color: rgb(28, 212, 120);
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 4px;
+display: inline-block;
+}
+a:active, a:hover{
+    background-color: rgb(28, 185, 107);
+}
+.Right {
+   float:right;
+}
+.box {
+border: 20px;
+padding-left: 10px;
+background-color: antiquewhite;
+border-radius: 4px;
+}
+.box2 {
+    border: 15px;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 0px;
+    max-width:500px
+}
+#clicker {
+    margin-bottom: 10px;
+}
+#last {
+    margin:2px;
+}
+#last2 {
+    border: 10px;
+    padding:20px;
+    background-color: rgb(204, 204, 85);
+}

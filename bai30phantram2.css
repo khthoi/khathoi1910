@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url();
+    max-height: fit-content;
+}
+.first{
+    margin:440px 0 5px 40px;
+    font-size: 55px;
+}
+#small{font-size: 19px;font-family: Calibri;}
+.end{
+    margin-top: 20px;
+    justify-content: flex-end; 
+    justify-self: end;
+    text-align: center;
+    display: flex;
+    background-color:white;
+}
+.o, .n, .e{
+    max-width: 150px;
+    padding-right: 70px;
+}

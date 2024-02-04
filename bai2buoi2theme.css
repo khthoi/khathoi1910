@@ -1,0 +1,40 @@
+.headpage {
+    margin-left:30px;
+    max-width: 650px;
+    position:relative;
+    font-family:"Calibri";
+}
+.info1 {
+    margin-left:50px;
+    font-size:18px;
+    max-width: 650px;
+    position:relative;
+}
+.linkpage1 {
+    margin-left:70px;
+    max-width: 650px;
+    position:relative;
+}
+a {
+    margin-bottom:6px;
+}
+a:link {
+    color:black;
+    font-family:"Calibri Light";
+}
+a:hover {
+    color:dodgerblue;
+    font-family:"Calibri Light";
+}
+.img1 {
+    width: 650px; height: 400px;
+    padding: 10px 10px 10px 0px;
+}
+.italic {
+    font-style: italic;
+    margin-bottom:6px;
+}
+.h3 {
+    font-family:"Calibri";
+    margin-bottom: 10px;
+}

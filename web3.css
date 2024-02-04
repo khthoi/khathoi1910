@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bgr.jpg);
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.main{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.nav{
+    margin-bottom: 80px;
+    opacity:90%;
+    transition: 0.5s;
+    position: sticky;
+    top:0;
+}
+.icon{
+    display: none;
+}
+.nav ul{
+    list-style-type: none;
+    display:flex;
+    background-color: rgba(221, 231, 234, 0.755);
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+}
+.nav2{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.trai{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    margin-right: auto;
+    margin-left: 145px;
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+}
+.nav2 li{
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.nav2 a{
+    font-family:sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 6px;
+}
+.nav2 a:visited{
+    color:rgb(0, 0, 0);
+    font-weight:600;
+}
+.nav2 a:hover{
+   color: rgb(125, 35, 35);
+   font-size: larger;
+   transition: 0.5s;
+}
+.nholaitrai{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 150px;
+    font-size: 47px;
+}
+.nholaiphai{
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:20px;
+    display: flex;
+}
+.main{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+
+}
+.viec{
+    padding-top: 110px;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.viec:hover{
+    background-color: rgb(247, 234, 218);
+    transform: scale(1.1);
+    transition: 0.7s;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* CSS để định dạng khối div */
+    .container {
+      width: 100%; /* Chiều rộng của container */
+      overflow: auto; /* Clear float */
+    }
+
+    /* Khối div thứ nhất */
+    .first-div {
+      width: 300px; /* Chiều rộng của khối div thứ nhất */
+      height: 200px; /* Chiều cao của khối div thứ nhất */
+      background-color: #f2f2f2; /* Màu nền của khối div thứ nhất */
+      border: 1px solid #ccc; /* Viền của khối div thứ nhất */
+      padding: 20px; /* Khoảng trắng bên trong khối div thứ nhất */
+      margin: 20px; /* Khoảng trắng xung quanh khối div thứ nhất */
+      float: left; /* Sử dụng float để đặt khối div thứ nhất bên trái */
+    }
+
+    /* Khối div thứ hai */
+    .second-div {
+      width: 300px; /* Chiều rộng của khối div thứ hai */
+      height: 200px; /* Chiều cao của khối div thứ hai */
+      background-color: #e0e0e0; /* Màu nền của khối div thứ hai */
+      border: 1px solid #999; /* Viền của khối div thứ hai */
+      padding: 20px; /* Khoảng trắng bên trong khối div thứ hai */
+      margin: 20px; /* Khoảng trắng xung quanh khối div thứ hai */
+      float: right; /* Sử dụng float để đặt khối div thứ hai bên phải */
+    }
+
+    /* Khối div dưới cùng */
+    .third-div {
+      width: 100%; /* Chiều rộng của khối div dưới cùng */
+      height: 200px; /* Chiều cao của khối div dưới cùng */
+      background-color: #ccc; /* Màu nền của khối div dưới cùng */
+      border: 1px solid #999; /* Viền của khối div dưới cùng */
+      padding: 20px; /* Khoảng trắng bên trong khối div dưới cùng */
+      margin-top: 20px; /* Khoảng trắng phía trên khối div dưới cùng */
+    }
+  </style>
+  <title>Three Divs Example</title>
+</head>
+<body>
+
+  <!-- Container chứa tất cả các khối div -->
+  <div class="container">
+    <!-- Khối div thứ nhất -->
+    <div class="first-div">
+      <h2>First Div</h2>
+      <p>This is the first div.</p>
+    </div>
+
+    <!-- Khối div thứ hai -->
+    <div class="second-div">
+      <h2>Second Div</h2>
+      <p>This is the second div.</p>
+    </div>
+  </div>
+
+  <!-- Khối div dưới cùng -->
+  <div class="third-div">
+    <h2>Third Div</h2>
+    <p>This is the third div below the first two divs.</p>
+  </div>
+
+</body>
+</html>

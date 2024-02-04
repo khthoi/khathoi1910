@@ -1,0 +1,298 @@
+@media (min-width: 768px) {
+body{
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+}
+.nav{
+    opacity:90%;
+    transition: 0.5s;
+    position: sticky;
+    top:0;
+}
+.trai {
+    transition: 0.5s;
+    margin-right: auto;
+    margin-left: 145px;
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+}
+.icon{
+    display: none;
+}
+.nav ul{
+    list-style-type: none;
+    display:flex;
+    background-color: rgb(226, 228, 222);
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+}
+.nav2{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.nav2 li{
+    margin: 5px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.nav2 a{
+    font-family:sans-serif;
+    color: rgb(178, 147, 101);
+    text-decoration: none;
+    padding: 6px;
+}
+.nav2 a:visited{
+    color:rgb(0, 0, 0);
+}
+.nav2 a:hover{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.nholaitrai{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 150px;
+    font-size: 47px;
+}
+.nholaiphai{
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:20px;
+    display: flex;
+}
+.back{
+    color: rgb(178, 147, 101);
+    text-decoration: none;
+    max-height: 30px;
+    margin-top:60px;
+    margin-right: 40px;
+    padding: 5px;
+    background-color: rgb(147, 143, 165);
+}
+#head{
+    font-size: 52px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top:40px;
+}
+.about{
+    margin-left: 30px;
+    margin-top: 60px;
+    display: flex
+}
+.vb{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+}
+img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+.vb p{
+    margin-left: 50px;
+    max-width: 700px;
+}
+#bigger{font-size: 40px;}
+.vb p a{
+    text-decoration: none;
+    color: rgb(32, 29, 29);
+}
+.vb a:hover{color: rgb(111, 125, 252);transition: 0.2s;font-weight: bold;}
+hr{width: 1050px; height: 1px; background-color: #333;margin:0;padding:0;margin-left: 30px;margin-top: 30px;}
+#skill{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 20px 20px 0 0;
+    padding-left: 30px;
+    font-style: italic;
+}
+.tcd{
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.t1, .t2, .t3, .t4{
+    color: rgb(119, 120, 46);
+    text-align: center;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding:0;
+    margin:0;
+}
+.t1b, .t2b, .t3b, .t4b{
+    border-style: dotted;
+    border: solid 1px;
+    text-align: left;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.t1b:hover,
+.t2b:hover,
+.t3b:hover,
+.t4b:hover{
+    transform:scale(1.1);
+    color:bisque;
+    transition: 0.7s;
+}
+.t1b{background-color:rgb(150, 77, 77);}
+.t2b{background-color: rgb(97, 97, 241);}
+.t3b{background-color:rgb(224, 185, 138);}
+.t4b{background-color: rgb(207, 130, 75);}
+
+#mail{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;  
+    margin: 0;
+    text-align: end;
+    background-color: rgb(206, 167, 167);
+}
+}
+@media (max-width:767px){
+    body{
+        margin: 0;
+        padding: 0;
+        max-height: fit-content;
+    }
+    .nav{
+        position:sticky;
+        background-color: bisque;
+        top:0;
+        display: flex;
+    }
+    .trai{
+        margin-left: 460px;
+        margin-right: auto;
+        float:right;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 24px;
+    }
+    .nav2{
+        overflow: hidden;
+        float:left;
+        display: block;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        list-style-type: none;
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+    }
+    .nav a:visited{
+        color:rgb(0, 0, 0);
+    }
+    .nav a:hover{
+        color: rgb(24, 209, 0);
+        font-weight: bolder;
+        transition: 0.5s;
+    }
+    .nav2 li:not(:last-child) {display: none;margin: 0;padding: 0;}
+    .nav2 li.icon {
+    float: left;
+    display:block;
+    }
+    .nav2.responsive {position: relative;transition: 0.2s;margin: 0;padding: 0;}
+    .nav2.responsive .icon {
+        position:absolute;
+        top:0;
+        left:0;  
+    }
+    .nav2.responsive li {
+        margin: 0;padding: 0;
+        margin-left: 24px;
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    #head{
+        font-size: 34px;
+        font-family: 'Quicksand', sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-top:0
+    }
+    .about{
+        margin-left: 13px;
+        margin-top: 60px;
+        display: flex
+    }
+    .vb{
+        font-size: 17px;
+        font-family: 'Quicksand', sans-serif;
+        display: block;
+    }
+    img{
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    .vb p{
+        margin-left: 20px;
+        max-width: 500px;
+        padding-right: 5px;
+    }
+    #bigger{font-size: 25px;}
+    .vb p a{
+        text-decoration: none;
+        color: rgb(32, 29, 29);
+    }
+    .vb a:hover{color: rgb(111, 125, 252);transition: 0.2s;font-weight: bold;}
+    .tcd{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        display: block;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .t1, .t2, .t3, .t4{
+        display: none;
+    }
+    .t1b, .t2b, .t3b, .t4b{
+        border: solid 1px;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 7px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Quicksand', sans-serif;
+        height: 150px;
+    }
+    .t1b:hover, .t2b:hover, .t3b:hover ,.t4b:hover{
+        background-color: antiquewhite;
+        transition: 0.5s;
+    }
+    #mail{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;  
+        margin: 0;
+        text-align: center;
+        background-color: rgb(206, 167, 167);
+    }
+}

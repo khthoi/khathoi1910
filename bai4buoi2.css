@@ -1,0 +1,44 @@
+.main {
+    font-family:"Roboto Slab";
+    max-width:560px;
+    margin:auto;
+    text-align: justify;
+}
+h1 {
+    color:rgb(19, 151, 151);
+}
+#bold {
+    font-style:bold, italic;
+}
+#green {
+    text-transform: capitalize;
+    color:white;
+    padding:5px;
+    background-color: rgb(19, 151, 151);
+}
+.link {
+    font-size: 13px;
+}
+a:link, a:visited {
+color:rgb(66, 189, 189);
+text-decoration: none;
+}
+a:hover, a:active {
+color:rgb(228, 228, 19);
+text-decoration: none;
+}
+.jpg {
+    width:560px; height:430px;
+}
+.img1 {
+     background-color: rgb(194, 186, 186);
+}
+#italic {
+    color: rgb(66, 68, 189);
+    font-style: italic;
+    font-size: 15px;
+}
+#boldlast {
+    text-align: right;
+    font-style:bold;
+}
