@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="javabuoi3.js"></script>
+</head>
+<style>
+    body {transition: background-color 0.3s;}
+    #submit {
+    cursor: pointer;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 45px;
+}
+    #submit:hover {
+    background-color: #45a049;
+}
+    #kq {
+        width: 150px;
+        padding: 8px 16px;
+        font-style: bold;
+    }
+    #history {
+        width: 150px;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 1px;
+    }
+    #doimau{
+        border: none;
+        margin-left: 0;
+        margin-top: 10px;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+        width: 60px;
+        background-color: #4CAF50;
+    }
+</style>
+<body>
+    <form action="#" onsubmit="validateform(event)">
+    <div class="main">
+        <h1>Máy tính siêu cơ bản</h1>
+        <div class="maytinh">
+    <p>Số thứ 1 <input type="number" id="so1" size="10" > </p>
+    <p>Phép tính <select size="1" id="pheptinh"></select></p>
+    <p>Số thứ 2 <input type="number" id="so2" size="10" > </p>
+    <div id="submit" onclick="submit()">Submit</div>
+    <button id="doimau">Đổi màu</button>
+    <p>Kết quả: <output type="number" id="kq" size="10" > </p>
+        </div>
+        <div id="history">Lịch sử tính toán</div>
+    </div>
+    <script src="javabuoi3.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+    background-color: rgb(78, 78, 203);
+}
+.nav{
+    opacity:90%;
+    transition: 0.5s;
+    position: sticky;
+    top:0;
+}
+.trai {
+    transition: 0.5s;
+    margin-right: auto;
+    margin-left: 145px;
+    margin-top: 40px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 64px;
+}
+.icon{
+    display: none;
+}
+.nav ul{
+    list-style-type: none;
+    display:flex;
+    background-color: rgb(135, 147, 209);
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+}
+.nav2{
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.nav2 li{
+    margin: 5px;
+    margin-right: 40px;
+    padding: 10px;
+}
+.nav2 a{
+    font-family:sans-serif;
+    color: rgb(101, 87, 65);
+    text-decoration: none;
+    padding: 6px;
+}
+.nav2 a:visited{
+    color:rgb(26, 27, 42);
+}
+.nav2 a:hover{
+    font-size:larger;
+    color:rgb(43, 73, 65);
+    transition: 0.5s;
+}
+.nholaitrai{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 150px;
+    font-size: 47px;
+}
+.nholaiphai{
+    transition: 0.5s;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:20px;
+    display: flex;
+}

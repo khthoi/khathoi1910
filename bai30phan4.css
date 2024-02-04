@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {background-image: url(bai4.png);height: 850px;background-size: cover;background-repeat: no-repeat;
+}
+.cau1{
+    color: black;font-weight: 600;position: absolute;font-size: 78px;width: 35%;top: 80px;left: 110px;}
+.cau2{
+    color: rgb(88, 85, 85);font-weight: 50;position: absolute;font-size: 29px;width: 24%;top: 400px;left: 110px;
+}
+.cau2:hover{color: aqua;}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: url(background1.jpg);
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cau1{
+    color: black;font-weight: 500;position: absolute;font-size: 75px;width: 25%;top: 140px; left: 8%;text-align: start;
+}
+.cau2{
+    color: black;font-weight: initial;position: absolute;font-size: 29px; width: 40%;top: 450px;left: 8%;
+}
+
+.icon{
+    font-size: 50px;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+.icon:hover{
+    color: aqua;
+}

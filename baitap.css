@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(237, 212, 181);
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    font-family: "Calibri";
+}
+p{font-size: larger;color:rgb(42, 58, 56);padding: 10px 20px;background-color: darkcyan;border-radius: 20px;}
+.bt{
+    text-align: center;
+    list-style-type: none;
+    display: grid;
+    justify-content:left;
+    float:left;
+    align-items: end;
+    width: 210px;
+}
+.bt li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    margin: 5px;
+    color: black;
+}
+.bt li a:hover{background-color: rgb(240, 201, 130);transition: 0.2s;border-radius: 10px;}
