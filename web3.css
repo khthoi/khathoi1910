@@ -88,6 +88,8 @@ body{
 
 }
 .viec{
+    margin-left: 35px;
+    margin-right: 35px;
     padding-top: 110px;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
@@ -97,3 +99,13 @@ body{
     transform: scale(1.1);
     transition: 0.7s;
 }
+#head{
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-left: 12px;
+    padding-top: 42px;
+    padding-bottom: 23px;
+}
+#head:hover{color: rgb(191, 195, 75);transition: 0.4s;transform: translateX(50px);}

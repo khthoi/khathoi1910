@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     max-height: fit-content;
-    background-color: rgb(78, 78, 203);
+    background-color: rgb(245, 243, 117);
 }
 .nav{
     opacity:90%;
@@ -25,7 +25,7 @@ body{
 .nav ul{
     list-style-type: none;
     display:flex;
-    background-color: rgb(135, 147, 209);
+    background-color: rgb(220, 109, 109);
     margin: 0;
     padding: 0;
     justify-content: right;
@@ -66,3 +66,19 @@ body{
     font-size:20px;
     display: flex;
 }
+.contact{
+    padding-left: 12px;
+    margin-top: 60px;
+    width:max-content;
+    border: solid 1px;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+h1{font-size: 40px;}
+#budget{width: 600px;font-size: 16px;}
+#username{width: 350px;}
+#phoneNumber{width: 300px;}
+#email{width: 390px;}
+#company{width: 350px;}
