@@ -26,7 +26,7 @@ var img = [];
         function loadImages() {
             for (var i = 1; i < 4; i++) {
                 img[i] = new Image();
-                img[i].src = "anhcanhan" + i + ".jpg";
+                img[i].src = "web3/anhcanhan" + i + ".jpg";
             }
         }
         function next() {
