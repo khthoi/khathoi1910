@@ -89,6 +89,7 @@ body{
 }
 .vb{
     font-size: 20px;
+    width: 660px;
     font-family: 'Quicksand', sans-serif;
     display: block;
 }
