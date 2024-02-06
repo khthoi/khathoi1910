@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     max-height: fit-content;
-    background-color: rgb(245, 243, 117);
+    background-color: rgb(251, 250, 207);
 }
 .nav{
     opacity:90%;
@@ -25,7 +25,7 @@ body{
 .nav ul{
     list-style-type: none;
     display:flex;
-    background-color: rgb(220, 109, 109);
+    background-color: rgb(216, 213, 156);
     margin: 0;
     padding: 0;
     justify-content: right;
@@ -66,6 +66,7 @@ body{
     font-size:20px;
     display: flex;
 }
+.main{display: flex;}
 .contact{
     padding-left: 12px;
     margin-top: 60px;
@@ -73,12 +74,38 @@ body{
     border: solid 1px;
     margin-left: 20px;
     font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     margin-bottom: 40px;
 }
 h1{font-size: 40px;}
-#budget{width: 600px;font-size: 16px;}
+#budget{width: 600px;font-size: 16px;font-weight: 100;}
 #username{width: 350px;}
 #phoneNumber{width: 300px;}
 #email{width: 390px;}
 #company{width: 350px;}
+#submit{padding: 16px;background-color: rgb(153, 238, 238);border-radius: 6px;border: none;margin-bottom: 12px;transition: 0.5s ease-in-out;}
+#submit:hover{background-color: rgb(0, 92, 61);color: aliceblue;}
+#title2{font-family: 'Quicksand', sans-serif;font-size: 36px;margin-left: 50px;text-decoration: underline;display: block;}
+.tess{
+    margin-top: 39px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-left: 120px;
+    position: relative;
+}
+.tess1{margin-left: 80px;}
+.tess1 img{width: 60%;border-radius: 50%;transition: 0.5s ease-in-out;}
+#next, #back{
+    margin-left: 57px;
+    position:absolute;
+    bottom: 57%;
+    background-color: rgb(96, 154, 154);
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.tess1 #next{left: 61.5%;}
+.tess1 #back{left: -6%;}
+.ud{padding-bottom: 0;}
+.ud p{width: 680px;}
