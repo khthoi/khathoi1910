@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
-<body>
+<body onload="load_images();">
     <div class="nav">
         <ul>
             <div class="trai">K.</div>
@@ -50,14 +50,19 @@
             <i class="fa-solid fa-person"></i>
             <p>TEAM MANAGEMENT</p>
         </div>
-        <br><br>
     </div>
-    <p id="title2">Testimonials</p>
+    <p id="title2"><i class="fa-regular fa-message"></i> Testimonials</p>
     <div class="tess">
         <div class="tess1">
-            
+            <img class="anh" src="anhcanhan1.jpg" id="anh">
+            <div id="next" onclick="next();"><i class="fa-solid fa-arrow-right"></i></div>
+            <div id="back" onclick="back();"><i class="fa-solid fa-arrow-left"></i></div>
         </div>
-        
+        <div class="ud">
+            <p>Ưu điểm: Học hỏi nhanh, tiếp thu tốt, nắm bắt các công nghệ mới nhanh</p>
+            <p>Khuyết điểm: Chưa định hướng được hướng đi đúng đắn của nghề nghiệp</p>
+            <p style="font-style: italic;"><i class="fa-regular fa-user"></i>Vu Cao Cuong: Tôi khá ấn tượng về Khá anh ý học hỏi rất nhanh những kiến thức và công nghệ mới.</p>
+        </div>
     </div>
     <script src="cmd3.js"></script>
 </body>

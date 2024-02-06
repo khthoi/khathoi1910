@@ -109,3 +109,23 @@ body{
     padding-bottom: 23px;
 }
 #head:hover{color: rgb(191, 195, 75);transition: 0.4s;transform: translateX(50px);}
+#title2{font-family: 'Raleway', sans-serif;font-size: 36px;margin-left: 50px;text-decoration: underline;}
+.tess{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-left: 180px;
+    position: relative;
+}
+.tess1 img{width: 40%;border-radius: 50%;transition: 0.5s ease-in-out;}
+#next, #back{
+    position:absolute;
+    bottom: 57%;
+    background-color: rgb(96, 154, 154);
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.tess1 #next{left: 41.5%;}
+.tess1 #back{left: -4%;}
+.ud{padding-bottom: 60px;}
+.ud p{width: 680px;}
