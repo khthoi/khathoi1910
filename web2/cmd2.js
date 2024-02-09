@@ -12,5 +12,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 trai.classList.add("nholaitrai");
             }
         }
+            else if(window.pageYOffset==0){
+                if(now="upper"){
+                phai.classList.remove("nholaiphai");
+                trai.classList.remove("nholaitrai");
+                now="under";
+                }
+        }
     })
 })
+function toggle(){
+    var dropdown=document.querySelector('.bao');
+    dropdown.classList.toggle('active');
+}

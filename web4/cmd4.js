@@ -70,3 +70,7 @@ var img = [];
         }
         loadImages();
         document.getElementById("anh").src = img[curimg].src;
+        function toggle(){
+            var dropdown=document.querySelector('.bao');
+            dropdown.classList.toggle('active');
+        }

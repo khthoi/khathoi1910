@@ -21,3 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     })
 })
+function toggle(){
+    var dropdown=document.querySelector('.bao');
+    dropdown.classList.toggle('active');
+}

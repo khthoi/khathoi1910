@@ -109,3 +109,40 @@ h1{font-size: 40px;}
 .tess1 #back{left: -6%;}
 .ud{padding-bottom: 0;}
 .ud p{width: 680px;}
+@media screen and (max-width: 767px){
+    .trai{
+        order: 2;
+    }
+    .nav2{
+        order: 1;
+        display: none;
+    }
+    .bao{
+        margin-left: 5%;
+        margin-top: 7px;
+    }
+    #icon1{
+        cursor: pointer;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 20px;
+        display:block;
+        position: relative;
+    }
+    .active .nav2{
+        display: block;
+        opacity: 1;
+    }
+    .nav{
+        display: contents;
+    }
+    .contact{
+        width: 565px;
+    }
+    .tess{
+        display: none;
+    }
+    #budget{
+        width: 560px;
+    }
+}

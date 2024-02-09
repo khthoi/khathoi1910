@@ -10,7 +10,7 @@ body{
     position: sticky;
     top:0;
 }
-.icon{
+#icon1{
     display: none;
 }
 .nav ul{
@@ -32,7 +32,7 @@ body{
     margin-top: 40px;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
-    font-size: 64px;
+    font-size: 52px;
 }
 .nav2 li{
     margin: 5px;
@@ -79,7 +79,7 @@ body{
     padding-top:0;
 }
 .title:hover{filter: brightness(2.1);font-size: 42px;transition: 0.5s;color: #4CAF50;font-weight: bolder;}
-.bao{
+.bao1{
     color: rgb(0, 0, 0);
     font-family:'Quicksand', sans-serif;
     text-align: center;
@@ -89,19 +89,15 @@ body{
     grid-template-columns: repeat(5, 4fr);
     gap: 10px;
 }
-.bao p:hover{filter: brightness(2.1);font-size: 32px;transition: 0.5s;color: #4CAF50;font-weight: bolder;}
-.dropdown ul{
-    list-style-type: none;
-    list-style:none;
-    border: 1px solid;
-    align-items: center;
-    justify-self: center;
-    text-align: center;
-}
+.dropdown p:hover{background-color: aliceblue;transition: 0.4s ease-in-out;padding: 8px;border-radius: 12px;}
 .dropdown li{
     list-style:none;
     text-align: center;
     list-style-type: none;
+}
+.downdown-content{
+    display: none;
+    border: 1px solid;
 }
 .dropdown a{
     font-family:'Quicksand', sans-serif;
@@ -109,4 +105,36 @@ body{
     text-align: center;
     color:black;
 }
-.dropdown a:hover{color: #1ed324;transition: 0.4s;font-size: larger;}
+.dropdown:hover .downdown-content{display: block;}
+@media screen and (max-width: 767px){
+    .trai{
+        order: 2;
+    }
+    .nav2{
+        order: 1;
+        display: none;
+    }
+    .nav2 a{
+        font-size: 20px;
+    }
+    .nav2 a
+    .bao{
+        margin-left: 5%;
+        margin-top: 7px;
+    }
+    #icon1{
+        cursor: pointer;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 20px;
+        display:block;
+        position: relative;
+    }
+    .active .nav2{
+        display: block;
+        opacity: 1;
+    }
+    .nav{
+        display: contents;
+    }
+}

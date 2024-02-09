@@ -19,7 +19,7 @@ body{
     position: sticky;
     top:0;
 }
-.icon{
+#icon1{
     display: none;
 }
 .nav ul{
@@ -109,3 +109,43 @@ body{
     padding-bottom: 23px;
 }
 #head:hover{color: rgb(191, 195, 75);transition: 0.4s;transform: translateX(50px);}
+@media screen and (max-width: 767px){
+    .trai{
+        order: 2;
+    }
+    .nav2{
+        order: 1;
+        display: none;
+    }
+    .bao{
+        margin-left: 5%;
+        margin-top: 7px;
+    }
+    #icon1{
+        cursor: pointer;
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 20px;
+        display:block;
+        position: relative;
+    }
+    .active .nav2{
+        display: block;
+        opacity: 1;
+    }
+    .nav{
+        display: contents;
+    }
+    .viec{
+        margin: 0;
+        padding: 0;
+        padding: 15%;
+    }
+    .main{
+        display: block;
+        gap: 0;
+    }
+    #head{
+        font-size: 20px;
+    }
+}
