@@ -21,11 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     })
 })
-function myFunction() {
-    var x = document.getElementById("mytopNav");
-    if (x.className === "nav2") {
-      x.className += " responsive";
-    } else {
-      x.className = "nav2";
-    }
-  }
+function toggle(){
+    var dropdown=document.querySelector('.bao');
+    dropdown.classList.toggle('active');
+}
