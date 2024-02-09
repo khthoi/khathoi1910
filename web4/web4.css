@@ -19,7 +19,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     font-size: 64px;
 }
-.icon{
+#icon1{
     display: none;
 }
 .nav ul{
