@@ -181,6 +181,11 @@ p .contact{
 }
 .contact p:hover{font-size: larger;color:rgb(134, 1, 1);transition: 0.6s;}
 
+.contact a{
+    text-decoration: none;
+}
+.contact a:hover{font-size: larger;color:rgb(134, 1, 1);transition: 0.6s;}
+
 @media screen and (max-width: 1167px){
     .trai{
         order: 2;
