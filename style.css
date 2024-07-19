@@ -146,6 +146,9 @@ hr{width: 1050px; height: 1px; background-color: #333;margin:0;padding:0;margin-
     margin-left: 20px;
     margin-right: 20px;
 }
+.t3b{
+    color:rgb(232, 232, 232);
+}
 .t1b:hover,
 .t2b:hover,
 .t3b:hover,
@@ -156,30 +159,48 @@ hr{width: 1050px; height: 1px; background-color: #333;margin:0;padding:0;margin-
 }
 .t1b{background-color:rgb(150, 77, 77);}
 .t2b{background-color: rgb(97, 97, 241);}
-.t3b{background-color:rgb(224, 185, 138);}
+.t3b{background-color:#6D24CF;}
 .t4b{background-color: rgb(207, 130, 75);}
 
-#mail{
-    font-family: 'Quicksand', sans-serif;
-    font-size: 20px;  
-    margin: 0;
-    text-align: end;
-    background-color: rgb(206, 167, 167);
-}
 .contact{
     font-family: 'Quicksand', sans-serif;
     font-size: 23px;
     text-align: end;
     padding-right: 15px;
     background-color: antiquewhite;
-    margin: 0;
+    margin: 0 0 5px 0;
     margin-bottom: -1%;
+    overflow: hidden;
 }
-p .contact{
-    padding: 0;
-    margin: 0;
+.row{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    float:right;
+}
+.row li a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;  
+}
+.row li{
+    margin-top: 5px;
+    text-align: left;
+}
+.row i{
+    font-size: larger;
+}
+.row a:hover{
+    font-size: larger;
+    transition: 0.3s ease-in-out;
+    color: rgb(158, 101, 31);
 }
 .contact p:hover{font-size: larger;color:rgb(134, 1, 1);transition: 0.6s;}
+
+.contact a{
+    text-decoration: none;
+}
+.contact a:hover{font-size: larger;color:rgb(134, 1, 1);transition: 0.6s;}
 
 @media screen and (max-width: 1167px){
     .trai{
