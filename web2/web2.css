@@ -89,25 +89,28 @@ body{
     grid-template-columns: repeat(5, 4fr);
     gap: 10px;
 }
-.dropdown p:hover{transition: 0.4s ease-in-out;padding: 8px;border-radius: 12px;}
+.dropdown{
+    user-select: none;
+    background-color: aliceblue;
+    cursor: pointer;
+}
 .dropdown li{
     list-style:none;
     text-align: center;
     list-style-type: none;
 }
 .downdown-content{
-    display: none;
+    max-height: 0;
+    overflow: hidden;
     border: 1px solid;
+    transition: max-height 0.4s ease-out;
 }
-.downdown-content li {background-color:#357237;}
 .dropdown a{
     font-family:'Quicksand', sans-serif;
     text-decoration: none;
     text-align: center;
     color:black;
 }
-.dropdown:hover .downdown-content{display: block;}
-.dropdown-content li a:hover{background-color: rgb(66, 123, 174);}
 @media screen and (max-width: 767px){
     .trai{
         order: 2;

@@ -25,3 +25,24 @@ function toggle(){
     var dropdown=document.querySelector('.bao');
     dropdown.classList.toggle('active');
 }
+
+function toggleAccordion(panelId) {
+    var panel = document.getElementById(panelId);
+    var allPanels = document.querySelectorAll('.downdown-content');
+
+    // Close all panels
+    allPanels.forEach(function(p) {
+        if (p !== panel) {
+            p.style.maxHeight = null;
+        }
+    });
+
+    // Toggle the clicked panel
+    if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+    } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+}
+
+
